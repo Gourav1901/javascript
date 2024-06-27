@@ -1,0 +1,23 @@
+h1 {
+  background-color: orange;
+  width: 100px;
+  height: 100px;
+  /* padding-left: 30px; */
+
+  box-sizing: border-box;
+  border: 5px solid blue;
+}
+
+span {
+  background-color: orange;
+  width: 100px;
+  height: 100px;
+  display:block;
+}
+/* 
+box model
+content
+border
+padding:between the content and border
+margin : outside the border
+*/
