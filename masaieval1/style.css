@@ -1,0 +1,154 @@
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -40px;
+}
+
+.left {
+  color: red;
+  font-size: 2rem;
+}
+
+.right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 23px;
+}
+.right p,
+i {
+  padding-right: 23px;
+  font-weight: 400;
+}
+
+.big {
+  width: 100%;
+  height: 500px;
+
+  overflow: hidden;
+}
+
+.immg {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.sec {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+  margin-left: 30%;
+}
+
+.secRight {
+  border: 2px solid grey;
+  height: 42px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 23%;
+  
+}
+.inputMain{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.comtainer2{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 3rem;
+}
+.card22{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 30%;
+  border-radius: 10px;
+  padding: 10px;
+}
+.card2{ 
+  height: 500px;
+  width: 100%;
+  overflow: hidden
+}
+
+.card2 > img{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.leftDiv {
+  display: flex;
+  gap: 0.5rem;
+  width: 20%;
+  flex-direction: column;
+}
+.mainDiv {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.singleInput {
+  display: flex;
+  gap: 0.5rem;
+  height: 20px;
+  align-items: center;
+  cursor: pointer;
+}
+.search {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.singleInput > input {
+  cursor: pointer;
+}
+
+.searchInp {
+  padding: 10px;
+  border-radius: 4px;
+  outline: none;
+}
+
+.rightDiv {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.card {
+  padding: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.imageCl {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  overflow: hidden;
+}
+.imageChild {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.para {
+  margin: 0;
+}
+.paraOne {
+  margin-top: 3rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
