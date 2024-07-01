@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feedback Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="main">
+    <div>
+      <h1>Feedback Form</h1>
+    </div>
+    
+    
+    <div class="container">
+
+      <form action="#">
+        <label for="feedback-type">Feedback Type:</label>
+        <select id="feedback-type" name="feedback-type">
+          <option value="bug report">Compliment</option>
+          <option value="feedback">Complaint</option>
+          <option value="suggestion">Suggestion</option>
+          <option value="question">Question</option>
+        </select>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" cols="33"></textarea>
+
+        <p>Website Rating:</p>
+        <div class="rating">
+          <label><input type="radio" name="rating" value="excellent"> Excellent</label>
+          <label><input type="radio" name="rating" value="good"> Good</label>
+          <label><input type="radio" name="rating" value="average"> Average</label>
+          <label><input type="radio" name="rating" value="poor"> Poor</label>
+        </div>
+        <br>
+        <label for="age">Age (10-100):</label>
+        <input type="number" id="age" name="age" min="10" max="100">
+
+        <label for="email">Email <span class="required">*</span>:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="password">Password (min. 8 characters):</label>
+        <input type="password" id="password" name="password" minlength="8" required>
+
+        <label for="website-url">Website URL (optional):</label>
+        <input type="url" id="website-url" name="website-url">
+
+        <label><input type="checkbox" name="terms" required> I agree to the terms and conditions</label>
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>
