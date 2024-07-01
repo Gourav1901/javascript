@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Panda Card</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f0f0f0;
+      margin: 0;
+    }
+
+    .card {
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      width: 300px;
+      background-color: #fff;
+      overflow: hidden;
+    }
+
+    .card img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 50%;
+    }
+
+    .card-content {
+      padding: 16px;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .card-content p {
+      margin: 8px 0;
+      color: #333;
+      font-family: Arial, sans-serif;
+      font-size: 1.5rem;
+    }
+
+    .card-content p.name {
+      font-family:'Courier New', Courier, monospace;
+      font-size: 2em;
+      
+      font-weight: 800;
+      color: rgb(100, 97, 45);
+    }
+
+    .card-content p.year {
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="card">
+    <img src="./img/panda.jpg" alt="Image of a panda">
+    <div class="card-content">
+      <p class="name">John Doe</p>
+      <p>Computer Science 1</p>
+      <p>Computer Science 2</p>
+      <p class="year">Year 3</p>
+      <p>******</p>
+    </div>
+  </div>
+</body>
+
+</html>
