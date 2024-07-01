@@ -1,0 +1,74 @@
+h1{
+  text-align: center;
+  font: size 30px;;
+
+  
+}
+ .child{
+   height: 100px;
+   width: 33%;
+ }
+#parent{
+  display:flex;
+  margin: auto;
+}
+
+.child2{
+  height: 100%;
+  width: 22%;
+  border-radius: 20px;
+  border-style:outset;
+}
+ #parent2{
+    height:auto;
+     width: 75%;
+     display:flex;
+     justify-content: space-around;
+     margin:auto
+        
+
+}
+
+#head{
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 30px;
+}
+
+h3,h4,h5,h6,p{
+  
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.company_logo{
+  height: 48px; 
+  width: 148px;
+  margin: auto;
+  display:block;
+}
+.company_logo2{
+  width: 110px;
+  height: 48px;
+  margin: auto;
+  display: block;
+}
+.company_logo3{
+  width: 140px;
+  height: 48px;
+  margin: auto;
+  display: block;
+}
+.company_logo4{
+  width: 112px;
+  height: 48px;
+  margin: auto;
+  display: block;
+}
+
+.investors_img{
+  width: 100%;
+}
+img{
+  border-radius: 20px;
+}

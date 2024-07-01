@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: #f0f0f0;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .main {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 20px;
+      width: 100%;
+      max-width: 800px;
+    }
+
+    .card {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      text-align: center;
+      width: 200px;
+      transition: background-color 0.3s ease;
+      box-sizing: border-box;
+    }
+
+    .card img {
+      width: 100px;
+      height: auto;
+      margin-bottom: 10px;
+    }
+
+    .card .para {
+      font-size: 1em;
+      color: #333;
+    }
+
+    .main:hover .card {
+      background-color: orange;
+    }
+
+    .main .card:hover {
+      background-color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Why it Matters?</h1>
+  <div class="main">
+    <div class="card">
+      <img src="https://s3.ap-southeast-1.amazonaws.com/files.coinswitch.co/images/partnership.svg" alt="Partnership">
+      <p class="para">Partnership with India’s largest wealth tech destination</p>
+    </div>
+    <div class="card">
+      <img src="https://s3.ap-southeast-1.amazonaws.com/files.coinswitch.co/images/network.svg" alt="Network">
+      <p class="para">Access to a network of 70+ global venture capital partners</p>
+    </div>
+    <div class="card">
+      <img src="https://s3.ap-southeast-1.amazonaws.com/files.coinswitch.co/images/capital.svg" alt="Capital">
+      <p class="para">Access to a network of 70+ global venture capital partners</p>
+    </div>
+    <div class="card">
+      <img src="https://s3.ap-southeast-1.amazonaws.com/files.coinswitch.co/images/mentorship.svg" alt="Mentorship">
+      <p class="para">Mentorship from in-house experts</p>
+    </div>
+  </div>
+</body>
+
+</html>
