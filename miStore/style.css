@@ -1,0 +1,38 @@
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 25px;
+  margin: -9px;
+  padding-top: 9px;
+  border: 1px solid rgb(189, 184, 184);
+}
+
+.left{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+
+.logo > img{
+  height: 35px;
+  margin-top: 5px;
+}
+
+.icon > a{
+  margin-left: 40px;
+  color: black;
+  
+}
+
+.right{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.right >a,i{
+  margin-right: 40px;
+  color: black;
+}
