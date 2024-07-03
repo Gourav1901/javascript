@@ -5,7 +5,7 @@ nav{
   font-size: 25px;
   margin: -9px;
   padding-top: 9px;
-  border: 1px solid rgb(189, 184, 184);
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
 
 .left{
@@ -35,4 +35,33 @@ nav{
 .right >a,i{
   margin-right: 40px;
   color: black;
+}
+.product{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.card1{
+  margin: 17px;
+  width: 15%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 3px;
+  font-size: 20px;
+}
+.offer{
+  margin-left: 16px;
+}
+.offer >button{
+  font-size: 25px;
+  padding: 4px 8px;
+  margin-top: -25px;
+  color: orange;
+  border: 1px solid orange;
+  border-radius: 10px;
+  
+}
+
+.product >img{
+  height: 180px;
+  padding-bottom: 10px;
 }
