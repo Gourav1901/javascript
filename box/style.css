@@ -1,0 +1,22 @@
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: lightgray;
+  margin: 10px;
+  transition: all 0.3s ease;
+}
+
+.special:hover {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+}
