@@ -41,6 +41,13 @@ nav{
   justify-content: space-around;
   align-items: center;
 }
+
+.card{
+  display: flex;
+  align-items: center;
+  padding-left:  200px;
+  margin-right: -230px;
+}
 .card1{
   margin: 17px;
   width: 15%;
