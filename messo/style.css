@@ -1,0 +1,30 @@
+.main {
+  display: flex;
+  gap: 300px;
+  align-items: center;
+}
+
+.logo img {
+  height: 40px;
+  width: auto;
+}
+
+
+
+.mid input {
+  width: 50%;
+  padding: 0 220px;
+  font-size: 20px;
+}
+
+
+.mid > input[type="text"] {
+  width: 100%; /* Make the input field take up the full width of its container */
+  padding: 10px; /* Add some padding for better appearance */
+  box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+  font-size: 16px; /* Set a font size */
+}
+.mid > input[type="text"]::placeholder {
+  font-size: 20px; /* Ensure the font size of the placeholder matches the input text */
+  color: #aaa; /* Set the color of the placeholder text */
+}
