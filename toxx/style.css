@@ -1,0 +1,32 @@
+body{
+  background-color: #090B0E;
+}
+
+.main{
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+}
+
+.left>img{
+  height: 40px;
+  width: auto;
+}
+
+.right a{
+  
+  margin-right: 30px;
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+ 
+}
+.right button{
+  margin-right: 30px;
+  font-size: 22px;
+  background-color: #090B0E;
+  color: white;
+  border: 1px solid rgb(44, 42, 42);
+  padding: 10px;
+  border-radius: 10px;
+}
