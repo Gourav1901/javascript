@@ -58,4 +58,60 @@ header h1:nth-of-type(3) {
  
 }
 
+header p{
+  color: grey;
+  font-size: 35px;
+
+}
+.search{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+  padding: 10px;
+  border: 7px solid #434470;
+  border-radius: 30px;
+  background-color: #090B0E;
+  width: 40%;
+  margin-left: 30%;
+  margin-top: 75px;
+}
+
+.search input{
+  padding: 14px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  width: 400px;
+  background-color: #090B0E;
+  color: #fff; 
+  font-size: 30px;
+}
+
+.search .generate {
+  display: flex;
+  align-items: center;
+  padding: 15px 15px;
+  border-radius: 0 5px 5px 0;
+  background-color: #6a0dad;
+  color: #fff;
+  font-size: 25px;
+  border-radius: 15px;
+
+
+}
+
+.reviews {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 20px 0;
+  color: rgb(80, 76, 76);
+  font-size: 25px;
+}
+.reviews img{
+   height: 40px;
+}
+
+
 
