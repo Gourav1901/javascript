@@ -7,6 +7,8 @@ nav {
   background-color: #f8f9fa;
   padding: 10px 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: 1px solid #0a0505;
+  
 }
 
 .main {
@@ -72,8 +74,9 @@ nav {
   justify-content: space-between; /* Center the links horizontally */
   gap: 15px; /* Add gap between each link */
   background-color: #f8f9fa; /* Optional: background color for navbar */
-  margin: 25px 15px;
- 
+  
+  border: 1px solid #ccc;
+  padding: 30px 30px;
   
 
 }
@@ -82,4 +85,80 @@ nav {
   color: #353543;
   font-size: 20px;
   font-weight: 500;
+
+}
+.head{
+  font-size: 45px;
+  color: #353543;
+  margin-left:15px;
+  
+}
+
+
+
+.leftDiv {
+  display: flex;
+  gap: 0.5rem;
+  width: 20%;
+  flex-direction: column;
+}
+.mainDiv {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.singleInput {
+  display: flex;
+  gap: 0.5rem;
+  height: 20px;
+  align-items: center;
+  cursor: pointer;
+}
+.search {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.singleInput > input {
+  cursor: pointer;
+}
+
+.searchInp {
+  padding: 10px;
+  border-radius: 4px;
+  outline: none;
+}
+
+.rightDiv {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.card {
+  padding: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.imageCl {
+  display: flex;
+  align-items: center;
+  width: 55%;
+  overflow: hidden;
+}
+.imageChild {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.para {
+  margin: 0;
+}
+.paraOne {
+  margin-top: 3rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 2px;
 }
