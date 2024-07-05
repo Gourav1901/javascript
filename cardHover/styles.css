@@ -1,0 +1,46 @@
+body {
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  width: 150px;
+  height: 200px;
+  border-radius: 10px;
+  transition: opacity 0.3s ease;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pink {
+  background-color: pink;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.card:hover {
+  opacity: 1;
+}
+
+.card:hover ~ .card:not(:hover) {
+  opacity: 0.5;
+}
