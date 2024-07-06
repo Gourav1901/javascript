@@ -1,0 +1,43 @@
+body{
+  background-color: black;
+}
+.container{
+  margin: auto;
+  background-color: rgb(7, 7, 7);
+  border: 1px solid black;
+  width: 50%;
+ 
+}
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:white;
+ 
+  
+}
+.card{
+  height: 370px;
+  width: 35%;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+
+}
+.info{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ 
+}
+.info h1,button ,p{
+  margin-top: -10px;
+  padding: -5px;
+}
+.card img{
+  height: 260px;
+  margin-bottom: 2px;
+}
+.info button{
+  padding: 6px;
+  background-color: aqua;
+}
