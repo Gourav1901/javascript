@@ -1,0 +1,41 @@
+.main{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.left  {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+.immg{
+  height: 40px;
+}
+.head{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 90px;
+ 
+}
+.head a{
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(70, 67, 67);
+  font-weight: 600;
+}
+.right{
+  margin-right: 10px;
+}
+.right>button{
+  padding: 15px 25px;
+  font-size: 22px;
+  border-radius: 9px;
+  border: 1px solid red;
+  background-color: white;
+  color: red;
+
+}
