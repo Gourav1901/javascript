@@ -1,0 +1,46 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #00a9ff;
+  font-family: Arial, sans-serif;
+}
+
+.keyboard {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 10px;
+  padding: 20px;
+  background-color: #1e1e1e;
+  border-radius: 10px;
+}
+
+.key {
+  background-color: #333;
+  color: #00a9ff;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 5px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.key.enter {
+  grid-column: span 2;
+}
+
+.key.shift {
+  grid-column: span 2;
+}
+
+.key.space {
+  grid-column: span 6;
+}
+
+.key.globe, .key.control, .key.option, .key.alt, .key.arrow {
+  grid-column: span 1;
+}
