@@ -1,0 +1,46 @@
+.main{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1A3C8F;
+  padding: 25px;
+}
+
+.left img{
+  height: 35px;
+  padding-left: 20px;   
+}
+
+.right{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  
+}
+
+.right a{
+  font-size: 23px;
+  color: white;
+  text-decoration: none;
+  
+}
+
+.right button {
+  padding: 15px;
+  border-radius: 9px;
+  background-color: #0066FF;
+  color: white;
+  font-size: 15px;
+}
+
+.right select{
+  padding: 15px;
+  border-radius: 9px;
+  border: none;
+  background-color: #1A3C8F;
+  font-size: 20px;
+  color: white;
+  padding-right: -3px;
+
+}
+
