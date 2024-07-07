@@ -1,8 +1,12 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
 .main{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #1A3C8F;
+  background-color: #00143b;
   padding: 25px;
 }
 
@@ -37,10 +41,18 @@
   padding: 15px;
   border-radius: 9px;
   border: none;
-  background-color: #1A3C8F;
+  background-color: #00143b;
   font-size: 20px;
   color: white;
   padding-right: -3px;
 
 }
 
+.new {
+  background-color: #ffcc00;
+  color: black;
+  font-size: 0.8em;
+  padding: 2px 5px;
+  margin-left: 5px;
+  border-radius: 5px;
+}
