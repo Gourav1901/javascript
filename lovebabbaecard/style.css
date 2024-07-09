@@ -1,0 +1,38 @@
+.container{
+  width: 100%;
+  height: 900px;
+  background-color: aqua;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2.
+  4rem;
+}
+.card
+{
+  width: 650px;
+  height: 350px;
+  display: flex;
+  border: 2px solid;
+  background-color: purple;
+
+}
+.left{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  color: white;
+  text-align: center;
+  margin: 5px;
+  
+
+}
+.leftbox{
+  display: flex;
+  justify-content: space-around;
+}
+.right img{ 
+  height: 350px;
+  width: 325px;
+}
+

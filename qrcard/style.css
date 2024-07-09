@@ -8,7 +8,7 @@
   height: 900px;
   background-color: aqua;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   gap: 2.4rem;
 }
@@ -23,7 +23,7 @@
   border: 2px solid white;
   background-color: aliceblue;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   padding: 30px;
   border-radius: 10px;
 }
