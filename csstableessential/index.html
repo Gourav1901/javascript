@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Table</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: green;
+            color: white;
+        }
+        td:nth-child(5), th:nth-child(5) {
+            text-align: right;
+        }
+        tr:nth-child(4) td {
+            background-color: #d3d3d3;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Product Name</th>
+            <th>Quantity</th>
+            <th>Price per Unit</th>
+            <th>Description</th>
+            <th>Total Price</th>
+        </tr>
+        <tr>
+            <td>Product 1</td>
+            <td>2</td>
+            <td>$10</td>
+            <td>This is product 1</td>
+            <td>$20</td>
+        </tr>
+        <tr>
+            <td>Product 2</td>
+            <td>3</td>
+            <td>$20</td>
+            <td>This is product 2</td>
+            <td>$60</td>
+        </tr>
+        <tr>
+            <td>Sum</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$80</td>
+        </tr>
+    </table>
+</body>
+</html>
