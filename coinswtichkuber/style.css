@@ -1,39 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-
-
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-body{
-  background:linear-gradient(#e7eefe,white,#e7eefe,white);
+body {
+  background: linear-gradient(#e7eefe, white, #e7eefe, white);
   font-family: "Open Sans", sans-serif;
 }
 
-nav{
+nav {
   background-color: white;
 }
-div.container{
+div.container {
   max-width: 1300px;
   margin: auto;
 }
-nav > div.container{
+nav > div.container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 19px 0px;
 }
 
-.container a{
+.container a {
   margin-left: 50px;
   text-decoration: none;
   font-size: 22px;
   color: black;
 }
-.container button{
+.container button {
   padding: 10px 15px;
   border-radius: 10px;
   margin-left: 50px;
@@ -42,28 +40,29 @@ nav > div.container{
   font-size: 17px;
 }
 
-main>.container button{
+main > .container button {
   padding: 15px 25px;
   border-radius: 10px;
-  margin-left: -.5px;
+  margin-left: -0.5px;
   background-color: black;
   color: white;
   border: none;
   font-size: 17px;
 }
 
-main > div.container img,h1,h3{
+main > div.container img,
+h1,
+h3 {
   margin: 20px;
-  
 }
-div.main2>div.container{
+div.main2 > div.container {
   margin: 90px;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 4.5rem;
 }
-div.main2>div.container>div{
+div.main2 > div.container > div {
   display: flex;
   flex-direction: column;
   gap: 5.5rem;
@@ -71,19 +70,17 @@ div.main2>div.container>div{
   font-size: 17px;
 }
 
-section>div.container {
+section > div.container {
   display: flex;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
   text-align: start;
   gap: -1rem;
-  
 }
-.card{
- 
+.card {
 }
 
-.card > img{
+.card > img {
   width: 250px;
   height: 250px;
   display: flex;
@@ -93,14 +90,9 @@ section>div.container {
   justify-content: center;
   padding: 30px;
   border-radius: 10px;
-   
-   
-  }
-
-.card p.para   {
-  font-size: 1.2rem;
-  font-weight: 700;
-  
- 
 }
 
+.card p.para {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
