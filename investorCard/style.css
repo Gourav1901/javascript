@@ -32,3 +32,31 @@
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
+
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+
+  .card {
+    height: 400px;
+  }
+
+  .logo img {
+    height: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    height: auto;
+  }
+
+  .logo img {
+    height: 30px;
+  }
+}
