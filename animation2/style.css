@@ -4,7 +4,7 @@ body, html {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+ 
 }
 
 .container {
@@ -18,18 +18,19 @@ body, html {
 
 .box {
   width: 200px;
-  height: 50px;
+  height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
   font-weight: bold;
-  background-image: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
   border-radius: 10px;
 }
 
 .box-1 {
-  animation: moveFromLeft 2s forwards;
+  animation: width 500px moveFromLeft 2s forwards;
+  
 }
 
 .box-2 {
