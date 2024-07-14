@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+   
+    .container{
+      width: 50%;
+      height: 500px;
+      /* border: 2px solid black; */
+      position: relative;
+      border: 2px solid black;
+      margin: auto;
+    }
+    .box{
+      width: 100px;
+      height: 100px;
+      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    }
+
+    #box1{
+      top: 10px;
+      left: 10px;
+      animation: expandToCenterLeft 2s forwards;
+    }
+
+    #box2{
+      top: 120px;
+      right: 10px;
+      animation: expandToCenterRight 2s forwards;
+    }
+
+    #box3{
+      top: 220px;
+      left: 10px;
+      animation: expandToCenterLeft 2s forwards;
+    }
+
+    #box4{
+      top: 380px;
+      right: 10px;
+      animation: expandToCenterRight 2s forwards;
+
+    }
+
+    /* @keyframes expandToCenterLeft {
+            0% {
+                width: 0px;
+                left: 0px;
+            }
+            100% {
+                width: calc(50% - 20px);
+                left: 0px;
+            }
+        } */
+
+   @keyframes expandToCenterLeft{
+    0%{
+      width: 0px;
+      left: 0px;
+    }
+    100%{
+      width: calc(50% - 20px);
+      right: 0px;
+    }
+   }
+
+   @keyframes expandToCenterRight{
+    0%{
+      width: 0px;
+      right: 0px;
+
+
+    }
+    100%{
+      width: calc(50% - 20px);
+      right: 0px;
+    }
+   }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div id="box1" class="box">box1</div>
+    <div id="box2" class="box">box2</div>
+    <div id="box3" class="box">box3</div>
+    <div id="box4" class="box">box4</div>
+  </div>
+</body>
+</html>
