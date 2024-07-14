@@ -29,24 +29,33 @@ body, html {
 }
 
 .box-1 {
-  animation: moveToCenter 2s forwards;
+  animation: moveFromLeft 2s forwards;
 }
 
 .box-2 {
-  animation: moveToCenter 2s forwards 0.5s; /* Delayed by 0.5 seconds */
+  animation: moveFromRight 2s forwards 0.5s; /* Delayed by 0.5 seconds */
 }
 
 .box-3 {
-  animation: moveToCenter 2s forwards 1s; /* Delayed by 1 second */
+  animation: moveFromLeft 2s forwards 1s; /* Delayed by 1 second */
 }
 
 .box-4 {
-  animation: moveToCenter 2s forwards 1.5s; /* Delayed by 1.5 seconds */
+  animation: moveFromRight 2s forwards 1.5s; /* Delayed by 1.5 seconds */
 }
 
-@keyframes moveToCenter {
+@keyframes moveFromLeft {
   0% {
     transform: translateX(-1000px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes moveFromRight {
+  0% {
+    transform: translateX(1000px);
   }
   100% {
     transform: translateX(0);
