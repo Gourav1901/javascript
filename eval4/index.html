@@ -6,32 +6,92 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+nav {
+  background-color: #f8f8f8;
+}
+
+.menu-items a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #333;
+}
+
+.menu-icon {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .menu-items {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .menu-icon {
+    display: block;
+  }
+
+  .menu-icon:hover + .menu-items,
+  .menu-items:hover {
+    display: flex;
+  }
+}
+
+.subscribe {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .subscribe {
+    display: block;
+  }
+}
+
+  </style>
 </head>
 
 <body>
-  <div class="cont">
   <nav>
-   
-    <div class="nav1">
-      <i class="fa-solid fa-ellipsis-vertical"></i>
-      <h1>JOURNAX</h1>
-      <button>Subscribe</button>
-    </div>
-
     <div class="container">
-      <div>
+      <div class="menu-icon">
+        <span><i class="fa-solid fa-bars fa-2xl"></i></span>
+      </div>
+      <div class="logo"><h1>JOURNAX</h1></div>
+      <div class="subscribe"><p>Subscribe</p></div>
+    </div>
+  </nav>
+  <hr />
+  <nav class="menu">
+    <div class="container">
+      <div class="menu-items">
         <a href="">Health</a>
         <a href="">Politics</a>
         <a href="">Sports</a>
         <a href="">World News</a>
         <a href="">Business</a>
         <a href="">Technology</a>
-        <a href="">cart(0)</a>
+        <a href="">Cart (0)</a>
       </div>
     </div>
-  
   </nav>
-</div>
 
   <main>
     <div class="container1">
