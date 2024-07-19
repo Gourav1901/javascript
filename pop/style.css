@@ -1,0 +1,38 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+#myButton {
+  padding: 10px 20px;
+  border: 1px solid ;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: red;
+}
+
+#infoBox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 30%;
+  height: 30%;
+  transform: translate(-50%, -50%);
+  background-color: red;
+  padding: 20px;
+  border: 2px solid ;
+  border-radius: 5px;
+  display: none;
+}
+
+#myButton:active + #infoBox {
+  display:unset;
+}
+
+#myButton:active {
+  background-color: lightgreen;
+}
+
